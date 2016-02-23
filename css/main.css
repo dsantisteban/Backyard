@@ -1,10 +1,4 @@
-/*
-Breakpoints: 
-320px - 375px; GREEN
-376px - 667px; YELLOW
-667px - 1024px; RED
-1024px - 1600px; BLUE
-*/
+
 *{
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
@@ -57,37 +51,14 @@ section .container .row .col-8 p{
 	padding-left: 2%;
 }
 .box-light a{
-	 display: block;
-	 color:white;
-	 padding: 2%;
-	 background-color: #3EB0F7;
+	display: block;
+	color:white;
+	padding: 2%;
+	background-color: #3EB0F7;
 }
 footer .row{
-  padding: 2% 0%;
-  color:#9A9A9A;	
+	padding: 2% 0%;
+	color:#9A9A9A;	
 }
 
-@media screen and (max-width: 535px){
-	.container{
-		max-width: 477px;
-	}
-	header img{
-	width: 50%;
-	}
 
-	section .container .col-8{
-		width: 100%;
-	}
-
-	section .container .row .col-8 p {
-    padding: 4% 0%;
-    font-size: 14px;
-	}
-	section .container .row .col-8 {
-    padding: 0%;
-	}	
-
-	section .container .col-4{
-		width: 100%;
-	}
-}

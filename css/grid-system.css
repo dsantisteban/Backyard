@@ -13,12 +13,7 @@
 	text-align: right;
 }
 
-@media screen and (min-width: 535px){
-	.container{
-		width: 200px;
-	}
-	
-}
+
 
 /* Grid system */
 
@@ -111,4 +106,26 @@
 .col-12 {
 	/* (12 / 12) x 100 */
 	width: 100%;
+}
+
+@media screen and (max-width: 768px) and (min-width: 335px){
+	.container{
+		width: 90%;
+	}
+	header img{
+		width: 50%;
+	}
+	
+	section .container .col-8, section .container .col-4{
+		width: 100%;
+	}
+
+	section .container .row .col-8 p {
+		padding: 4% 10% 4% 0%;
+		font-size: 14px;
+	}
+	section .container .row .col-8 {
+		padding: 0%;
+	}	
+
 }
