@@ -13,6 +13,13 @@
 	text-align: right;
 }
 
+@media screen and (min-width: 535px){
+	.container{
+		width: 200px;
+	}
+	
+}
+
 /* Grid system */
 
 .container {
